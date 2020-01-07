@@ -8,6 +8,7 @@ public class Test {
 
 	@GetMapping("/testnewserver")
 	public String hellotest() {
+		System.out.println("new Server get Mapping");
 		return "new Test server";
 	}
 }

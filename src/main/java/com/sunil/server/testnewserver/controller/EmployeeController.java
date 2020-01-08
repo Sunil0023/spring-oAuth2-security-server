@@ -31,6 +31,11 @@ public class EmployeeController {
 	        emp1.setEmpName("Reena");
 	        employees.add(emp1);
 	        
+	        Employee emp2 = new Employee();
+	        emp2.setEmpId("104");
+	        emp2.setEmpName("Nidhi");
+	        employees.add(emp2);
+	        
 	        System.out.println("List of Employees: "+employees);
 	        
 	        return employees;

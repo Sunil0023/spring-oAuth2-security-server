@@ -14,8 +14,8 @@ public class Test {
 	}
 	
 	
-	GetMapping("/testnewmethod")
-	public String hellotest() {
+	@GetMapping("/testnewmethod")
+	public String hellotest1() {
 		System.out.println("New method created manually");
 		System.out.println("To check from GitHub to Local Copy");
 		return "Test New method";

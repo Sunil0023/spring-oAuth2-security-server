@@ -12,4 +12,12 @@ public class Test {
 		System.out.println("For second test from APP to Local Git and Finally Github");
 		return "new Test server";
 	}
+	
+	
+	@GetMapping("/testnewmethod")
+	public String hellotest1() {
+		System.out.println("New method created manually");
+		System.out.println("To check from GitHub to Local Copy");
+		return "Test New method";
+	}
 }

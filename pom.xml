@@ -12,7 +12,7 @@
 	</parent>
 
 	<groupId>com.sunil.server</groupId>
-	<artifactId>test-new-server</artifactId>
+	<artifactId>spring-security-oAuth2-server</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>test-new-server</name>
 	<description>Demo project for Spring Boot</description>
